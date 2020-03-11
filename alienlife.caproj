@@ -10,6 +10,7 @@
     <unique-id>2fjb9z8aw2di</unique-id>
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
     </used-plugins>
@@ -72,20 +73,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="362740728355633" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="porta" sid="373905287918004">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="731850120931666">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="981954411912156" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\EDUARDO\Desktop\william senai\Sprite\Sprite\kenney-platformer-art-base-pack\Tiles\grass.png">
+                        <collision-poly>
+                            <point x="0.0285714" y="0.0285714" />
+                            <point x="0.5" y="0" />
+                            <point x="0.971429" y="0.0285714" />
+                            <point x="1" y="0.5" />
+                            <point x="0.971429" y="0.971429" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0285714" y="0.971429" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -98,7 +97,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="120252369608192" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\EDUARDO\Desktop\william senai\Sprite\Sprite\kenney-platformer-art-base-pack\Items\coinGold.png">
+                        <collision-poly>
+                            <point x="0.328571" y="0.328571" />
+                            <point x="0.5" y="0.271429" />
+                            <point x="0.671429" y="0.328571" />
+                            <point x="0.742857" y="0.5" />
+                            <point x="0.685714" y="0.685714" />
+                            <point x="0.5" y="0.757143" />
+                            <point x="0.314286" y="0.685714" />
+                            <point x="0.257143" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -124,38 +134,6 @@
                     <behavior id="Pin" />
                 </behavior-type>
             </behaviors>
-        </object-type>
-        <object-type name="spiner" sid="193741966983557">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Rotate" sid="827729293462028">
-                    <behavior id="Rotate" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="740046569059201">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="548525448415922" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite" sid="359041226482128">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="420833615911780">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Rotate" sid="544652354395855">
-                    <behavior id="Rotate" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="372809029829723" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="Sprite2" sid="228066352171290">
             <plugin id="Sprite" />
@@ -200,10 +178,48 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="472252340053494">
+        <object-type name="Keyboard" sid="607389759842254">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="coracao" sid="919137153895958">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="400134027137256">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="847282554249273" speed="5">
+                <animation framecount="4" loop="0" name="coracao" pingpong="0" repeatcount="1" repeatto="0" sid="158229307019034" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.503067" hotspotY="0.511111" />
+                    <frame duration="1" hotspotX="0.503067" hotspotY="0.511111" />
+                    <frame duration="1" hotspotX="0.503067" hotspotY="0.511111" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="504765011644315">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="551138794353205">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="parado" pingpong="0" repeatcount="1" repeatto="0" sid="520234903547537" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\EDUARDO\Desktop\william senai\Sprite\Sprite\kenney-platformer-art-base-pack\Enemies\slimeWalk1.png">
+                        <collision-poly>
+                            <point x="0.151515" y="0.108696" />
+                            <point x="0.5" y="0" />
+                            <point x="0.848485" y="0.108696" />
+                            <point x="0.939394" y="0.5" />
+                            <point x="0.772727" y="0.836957" />
+                            <point x="0.5" y="0.902174" />
+                            <point x="0.166667" y="0.880435" />
+                            <point x="0.0454545" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="andar" pingpong="0" repeatcount="1" repeatto="0" sid="787219750583335" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
@@ -216,7 +232,9 @@
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Keyboard" uid="6" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>
