@@ -14,11 +14,11 @@
                     <param id="0" name="Pin to">hero</param>
                     <param id="1" name="Mode">0</param>
                 </action>
-                <action id="-4" name="Set position to another object" sid="521068763159193" type="Sprite2">
+                <action id="-4" name="Set position to another object" sid="521068763159193" type="anihero">
                     <param id="0" name="Object">hero</param>
                     <param id="1" name="Image point (optional)">0</param>
                 </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="292340303588549" type="Sprite2">
+                <action behavior="Pin" id="0" name="Pin to object" sid="292340303588549" type="anihero">
                     <param id="0" name="Pin to">hero</param>
                     <param id="1" name="Mode">0</param>
                 </action>
@@ -33,14 +33,6 @@
                 <action id="-9" name="Set value" sid="511240922978422" type="System">
                     <param id="0" name="Variable">pontos</param>
                     <param id="1" name="Value">0</param>
-                </action>
-                <action id="-4" name="Set position to another object" sid="512175519648540" type="Sprite">
-                    <param id="0" name="Object">inimigo</param>
-                    <param id="1" name="Image point (optional)">0</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="943899081561257" type="Sprite">
-                    <param id="0" name="Pin to">inimigo</param>
-                    <param id="1" name="Mode">0</param>
                 </action>
             </actions>
         </event-block>
@@ -105,7 +97,7 @@
                 <condition behavior="Platform" id="0" name="Is moving" sid="593032049899566" type="hero" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="451498487411310" type="Sprite2">
+                <action id="4" name="Set animation" sid="451498487411310" type="anihero">
                     <param id="0" name="Animation">&quot;andar&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -116,7 +108,7 @@
                 <condition id="-22" name="Else" sid="382722513244922" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="651097333408798" type="Sprite2">
+                <action id="4" name="Set animation" sid="651097333408798" type="anihero">
                     <param id="0" name="Animation">&quot;parado&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -127,7 +119,7 @@
                 <condition behavior="Platform" id="3" name="Is jumping" sid="373238613266569" type="hero" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="459566577891655" type="Sprite2">
+                <action id="4" name="Set animation" sid="459566577891655" type="anihero">
                     <param id="0" name="Animation">&quot;pular&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -138,7 +130,7 @@
                 <condition behavior="Platform" id="4" name="Is falling" sid="301578827392924" type="hero" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="211016404554404" type="Sprite2">
+                <action id="4" name="Set animation" sid="211016404554404" type="anihero">
                     <param id="0" name="Animation">&quot;cair&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -151,7 +143,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="7" name="Set mirrored" sid="392567637951719" type="Sprite2">
+                <action id="7" name="Set mirrored" sid="392567637951719" type="anihero">
                     <param id="0" name="State">0</param>
                 </action>
             </actions>
@@ -163,7 +155,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="7" name="Set mirrored" sid="290159942281258" type="Sprite2">
+                <action id="7" name="Set mirrored" sid="290159942281258" type="anihero">
                     <param id="0" name="State">1</param>
                 </action>
             </actions>
@@ -181,6 +173,18 @@
                     <param id="0" name="Seconds">1.0</param>
                 </action>
                 <action id="-26" name="Restart layout" sid="362585438311813" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="828763109639099">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="964720620514328" type="potao">
+                    <param id="0" name="Object">hero</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="260720949440213" type="terrasemfisica">
+                    <param id="0" name="Visibility">0</param>
+                </action>
             </actions>
         </event-block>
     </events>

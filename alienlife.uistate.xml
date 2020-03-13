@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Layout 1</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
+        <layout order="1">Layout 1</layout>
+        <event-sheet active="1" order="2">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,11 +29,27 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="music-folder/" />
         <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/hero/" />
-        <folder expanded="1" path="animation-folder/base/" />
         <folder expanded="1" path="animation-folder/moeda/" />
         <folder expanded="1" path="animation-folder/inimigo/" />
-        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/anihero/" />
         <folder expanded="1" path="animation-folder/coracao/" />
+        <folder expanded="1" path="animation-folder/espinho/" />
+        <folder expanded="1" path="animation-folder/casa/" />
+        <folder expanded="1" path="animation-folder/porta/" />
+        <folder expanded="1" path="animation-folder/porta2/" />
+        <folder expanded="1" path="animation-folder/voador/" />
+        <folder expanded="1" path="animation-folder/bonus/" />
+        <folder expanded="1" path="animation-folder/potao/" />
+        <folder expanded="1" path="animation-folder/elevador/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/bandeira/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/telhado/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/entrada/" />
+        <folder expanded="1" path="animation-folder/saida/" />
     </folders-expanded>
 </c2uistate>
